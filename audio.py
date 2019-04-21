@@ -21,7 +21,7 @@ from discord import opus
 
 start_time = time.time()
 
-bot=commands.Bot(command_prefix='b.')
+bot=commands.Bot(command_prefix='l.')
 songs = asyncio.Queue()
 play_next_song = asyncio.Event()
 bot.remove_command('help')
@@ -1090,7 +1090,7 @@ async def img(ctx):
         
 @bot.command(pass_context=True)
 async def embed(ctx):
-    embed = discord.Embed(title="test", description="my name Pratyaksh Dandyan", color=0x00ff00)
+    embed = discord.Embed(title="test", description="my name DAKSH", color=0x00ff00)
     embed.set_footer(text="this is a footer")
     embed.set_author(name="Team Ghost")
     embed.add_field(name="This is a field", value="no it isn't", inline=True)
